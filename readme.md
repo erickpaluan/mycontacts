@@ -30,5 +30,3 @@ Todas as notas contidas são de inteira responsabilidade de seu autor.
 
   2) Usar o arquivo ***schema.sql*** dentro da pasta ___database___ para criar
     tabelas dentro da base de dados.
-
-  [texto será atualizado conforme novos aprendizados.]
