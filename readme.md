@@ -1,32 +1,32 @@
-# mycontacts
+# MyContacts
 
-API criada como parte do curso **JSTACK**.
-Todas as notas contidas são de inteira responsabilidade de seu autor.
+## 📌 Overview
+Simple contact management application that allows users to create, edit, list and delete contacts.
 
-### Objetivo
+## 🎯 Purpose
+Practice fullstack fundamentals with CRUD operations, application structure and basic backend integration.
 
-  O objetivo desse projeto é criar uma API usando Node.js que controle o funcionamento
-  de uma agenda de contatos online, usando CRUD e conceitos de programação para
-  o aprendizado da linguagem de programação javascript.
+## 🛠️ Tech Stack
+- JavaScript
+- HTML
+- CSS
+- PostgreSQL
+- Docker
 
-### Aprendizado
+## 📚 What this project demonstrates
+- CRUD concepts
+- Frontend data manipulation
+- Basic backend and database integration
+- Local development environment setup with Docker
 
-  Nesse projeto aprendi a criar um servidor com Express, instalar e configurar o
-  Nodemon, para agilizar a programação e o recarregamento do servidor para testes locais.
+## 🐳 Docker Setup
 
-  Esse projeto está usando o ESLint com o padrão Airbnb para a identação e
-  formatação do código escrito, assim como o editconfig para a padronização do
-  editor de código, no caso, VS Code.
-  Aprendi sobre Repository Pattern e Middlewares.
+### 1️⃣ Create the PostgreSQL container
+Run the command below to create and start the database container:
 
-  Para o banco de dados foi escolhido o Postgres usando Docker para manter a
-  consistência e versões da base de dados.
-
-## Instruções Docker.
-
-  1) Criar o contâiner docker.
-
-    docker run --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -p 5432:5432 -d postgres
-
-  2) Usar o arquivo ***schema.sql*** dentro da pasta ___database___ para criar
-    tabelas dentro da base de dados.
+```bash
+docker run --name pg \
+  -e POSTGRES_USER=root \
+  -e POSTGRES_PASSWORD=root \
+  -p 5432:5432 \
+  -d postgres
