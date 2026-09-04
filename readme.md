@@ -1,4 +1,4 @@
-# MyContacts
+# my-contacts-api
 
 ## 📌 Overview
 Simple contact management application that allows users to create, edit, list and delete contacts.
